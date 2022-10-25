@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/garage-ytube/static/css/main.14da6377.css",
+    "main.js": "/garage-ytube/static/js/main.edc5234b.js",
+    "static/media/logo_garage.png": "/garage-ytube/static/media/logo_garage.6905d1ec879bfe89c395.png",
+    "index.html": "/garage-ytube/index.html",
+    "main.14da6377.css.map": "/garage-ytube/static/css/main.14da6377.css.map",
+    "main.edc5234b.js.map": "/garage-ytube/static/js/main.edc5234b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14da6377.css",
+    "static/js/main.edc5234b.js"
+  ]
+}
