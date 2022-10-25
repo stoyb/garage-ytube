@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14da6377.css",
+    "main.js": "/static/js/main.b04a5880.js",
+    "static/media/logo_garage.png": "/static/media/logo_garage.6905d1ec879bfe89c395.png",
+    "index.html": "/index.html",
+    "main.14da6377.css.map": "/static/css/main.14da6377.css.map",
+    "main.b04a5880.js.map": "/static/js/main.b04a5880.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14da6377.css",
+    "static/js/main.b04a5880.js"
+  ]
+}
