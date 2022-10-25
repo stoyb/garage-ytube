@@ -19,17 +19,17 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
     }}
     >
       <Link to={`/channel/${channelDetail?.id?.channelId}`}>
-        <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#FFF' }}>
+        <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#000' }}>
           <CardMedia
             image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
             alt={channelDetail?.snippet?.title}
-            sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #e3e3e3'}}/>
+            sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #000000'}}/>
             <Typography variant='h6'>
-              {channelDetail?.snippet?.title}
-              <CheckCircle sx={{ fontSize: 14, color:'gray', ml: '5px' }}/>
+              {channelDetail?.snippet?.title}{' '}
+              <CheckCircle sx={{ fontSize: '14px', color:'black', ml: '5px' }}/>
             </Typography>
             {channelDetail?.statistics?.subscriberCount && (
-              <Typography>
+              <Typography sx={{ fontSize: '15px', fontWeight: '500', color:'black'}}>
                 {parseInt(channelDetail?.statistics?.subscriberCount).toLocaleString()} Subscribers
               </Typography>
             )}

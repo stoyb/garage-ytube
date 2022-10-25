@@ -21,7 +21,7 @@ const Feed = () => {
              {selectedCategory}
              setSelectedCategory = 
              {setSelectedCategory}/>
-            <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: '#fff'}}>
+            <Typography className="copyright" variant="body2" sx={{ mt: 1.5, color: '#000'}}>
                 Copyright 2022 JSM Media
             </Typography>
         </Box>
@@ -30,8 +30,8 @@ const Feed = () => {
         height: ' 90vh', flex: 2 }}>
             <Typography variant="h4"
             fontWeight="bold" mb={2} sx={{
-                color: 'white'}}>
-                {selectedCategory}  <span style={{ color: '#F31503'}}> videos</span>
+                color: 'black'}}>
+                {selectedCategory}  <span style={{ color: '#1F7474'}}> videos</span>
             </Typography>
             <Videos videos= {videos} />
         </Box>
