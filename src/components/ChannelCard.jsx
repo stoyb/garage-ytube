@@ -24,7 +24,7 @@ const ChannelCard = ({ channelDetail, marginTop }) => (
             image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
             alt={channelDetail?.snippet?.title}
             sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #000000'}}/>
-            <Typography variant='h6'>
+            <Typography variant='h6' fontWeight="bold">
               {channelDetail?.snippet?.title}{' '}
               <CheckCircle sx={{ fontSize: '14px', color:'black', ml: '5px' }}/>
             </Typography>
